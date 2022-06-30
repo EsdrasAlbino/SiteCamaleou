@@ -26,6 +26,9 @@ function App() {
         <h1>Mecânicas</h1>
 
       </div>
+      <footer>
+        <a>Time de Produção</a>
+      </footer>
     </div>
   );
 }
