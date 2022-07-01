@@ -1,3 +1,15 @@
 *{
     text-align: center;
 }
+
+#mecanica{
+    display: flex;
+    width: 20%;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+
+    background-color: #29292c;
+    border-radius: 10px;
+}
+

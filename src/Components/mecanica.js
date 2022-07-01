@@ -1,10 +1,13 @@
 import './mecanica.css';
 
+
+
 export default function Mecanica(props){
     return(
-        <div>
-            <h3>{props.NomeMecanica}</h3>
-            <p>{props.DescricaoMecanica}</p>
+        <div id="mecanica">
+            <img src='{props.icon}'/>
+            <h3>{props.nome}</h3>
+            <p>{props.descricao}</p>
         </div>
     )
 }
