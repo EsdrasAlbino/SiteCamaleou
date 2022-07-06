@@ -17,22 +17,34 @@ function App() {
         <div>
           <h1>A Expressão das Cores</h1>
           <div class="estrutura-site">
-            <p>Usamos cores para expressar diversos sentimentos dos jogadores.</p>
-            <img src={ImagemMapa} class="position"/>
+            <div>
+              <img src={ImagemMapa} class="position"/>
+            </div>
+            <div>
+              <p>Usamos cores para expressar diversos sentimentos nos jogadores.</p>
+            </div>
           </div>
         </div>
         <div >
           <h1>História</h1>
           <div class="estrutura-site">
-            <p>Mono é morador de uma vila que se afundou na tristeza e depressão, entretanto, Mono percebe algo diferente no céu, uma luz, enquanto tudo ao seu redor é preto e branco.</p>
-            <img src={ImageHistoria} class="position1"/>
+            <div>
+              <p>Mono é morador de uma vila que se afundou na tristeza e depressão, entretanto, Mono percebe algo diferente no céu, uma luz, enquanto tudo ao seu redor é preto e branco.</p>
+            </div>
+            <div>
+              <img src={ImageHistoria} class="position1"/>
+            </div>
           </div>
         </div>
         <div >
           <h1>Personagem</h1>
           <div class="estrutura-site">
-            <p>MONO</p>
-            <img src={Mono} class="position"/>
+            <div>
+              <img src={Mono} class="position"/>
+            </div>
+            <div>
+              <p>MONO</p>
+            </div>
           </div>
         </div>
         <div>
