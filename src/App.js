@@ -14,20 +14,26 @@ function App() {
         <img src={FaGithub} className="Jogo-logo" alt="logo" />
       </header>
       <body class="color-background">
-        <div >
+        <div>
           <h1>A Expressão das Cores</h1>
-          <p>Usamos cores para expressar diversos sentimentos dos jogadores.</p>
-          <img src={ImagemMapa} class="position"/>
+          <div class="estrutura-site">
+            <p>Usamos cores para expressar diversos sentimentos dos jogadores.</p>
+            <img src={ImagemMapa} class="position"/>
+          </div>
         </div>
         <div >
           <h1>História</h1>
-          <p>Mono é morador de uma vila que se afundou na tristeza e depressão, entretanto, Mono percebe algo diferente no céu, uma luz, enquanto tudo ao seu redor é preto e branco.</p>
-          <img src={ImageHistoria} class="position1"/>
+          <div class="estrutura-site">
+            <p>Mono é morador de uma vila que se afundou na tristeza e depressão, entretanto, Mono percebe algo diferente no céu, uma luz, enquanto tudo ao seu redor é preto e branco.</p>
+            <img src={ImageHistoria} class="position1"/>
+          </div>
         </div>
         <div >
           <h1>Personagem</h1>
-          <p>MONO</p>
-          <img src={Mono} class="position"/>
+          <div class="estrutura-site">
+            <p>MONO</p>
+            <img src={Mono} class="position"/>
+          </div>
         </div>
         <div>
           <h1>Mecânicas</h1>

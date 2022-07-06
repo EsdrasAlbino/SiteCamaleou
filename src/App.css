@@ -19,8 +19,9 @@ p{
 img{
   width: 25%;
   height: 50%;
-  
+  border-radius: 10px;
 }
+
 footer{
   display: flex;
   flex-direction: row;
@@ -35,6 +36,7 @@ span{
   color: #212226;
 }
 
+
 #estilo-time{
   color: #d9bba9;
   font-size: 40px;
@@ -47,7 +49,7 @@ span{
   flex-flow: row wrap;
   justify-content: space-evenly;
   align-items: center;
-
+  padding: 10px;
 
 }
 
@@ -64,6 +66,11 @@ span{
   position: relative;
   right: 350px;
 }
+.estrutura-site{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 
 .footer-color{
   background-color: #f2f2f2;
@@ -73,5 +80,6 @@ span{
   padding: 50px;
   font-size: 50px;
 }
+
 
 
